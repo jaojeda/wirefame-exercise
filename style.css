@@ -2,7 +2,39 @@
     box-sizing: border-box;
   }
 
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 960px 1fr;
-  }
+body {
+  display: grid;
+  grid-template-columns: 1fr 960px 1fr;
+  grid-template-rows: re
+}
+
+section {
+  grid-column: 1;
+  background-color: #444444;
+  width: auto;
+}
+
+header {
+  grid-column: 2;
+  background-color: #444444;
+  height: 100px;
+  position: relative;
+}
+
+.logo {
+  position: relative;
+  top: 15px;
+}
+
+ul {
+  list-style-type: none;
+  color: #ffffff;
+}
+
+.nav-item {
+  display: inline-block;
+  position: relative;
+  left: 230px;
+  bottom: 30px;
+  margin: 0 40px;
+}
