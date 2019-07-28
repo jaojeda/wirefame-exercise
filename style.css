@@ -65,3 +65,21 @@ section {
   position: relative;
   left: 54px;
 }
+#featured {
+  position: relative;
+}
+.featured-image {
+  margin-top: 30px;
+}
+
+.featured-text {
+  position: relative;
+  overflow: scroll;
+  top: 0;
+  /* bottom: 300px; */
+  margin-left: 30px;
+  margin-top: 30px;
+  display: inline-block;
+  width: 430px;
+  height: 350px;
+}
