@@ -8,7 +8,7 @@ body {
   grid-template-rows: re
 }
 
-section {
+div {
   grid-column: 1;
   background-color: #444444;
   width: auto;
@@ -37,4 +37,31 @@ ul {
   left: 230px;
   bottom: 30px;
   margin: 0 40px;
+}
+
+main {
+  grid-column: 2;
+  position: relative;
+}
+
+.hero-image {
+  margin-top: 30px;
+}
+section {
+  position: relative;
+}
+.sub-banner-1, .sub-banner-2, .sub-banner-3 {
+  margin-top: 30px;
+}
+.sub-banner-1 {
+  position: relative;
+  left: 0;
+}
+.sub-banner-2 {
+  position: relative;
+  left: 29px;
+}
+.sub-banner-3 {
+  position: relative;
+  left: 54px;
 }
