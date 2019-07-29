@@ -1,8 +1,125 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
   }
 
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 960px 1fr;
-  }
+body {
+  display: grid;
+  grid-template-columns: 1fr 960px 1fr;
+
+}
+
+#header-background {
+  grid-column: 1 / 4 ;
+  background-color: #444444;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+}
+
+#footer-background {
+  grid-column: 1 / 4 ;
+  background-color: #444444;
+  width: 100%;
+  height: 100px;
+}
+
+header {
+  grid-column: 2;
+  background-color: #444444;
+  height: 100px;
+  position: relative;
+}
+
+.logo {
+  position: relative;
+  top: 15px;
+}
+
+ul {
+  list-style-type: none;
+  color: #ffffff;
+}
+
+.nav-item {
+  font-family: sans-serif;
+  color: grey;
+  display: inline-block;
+  position: relative;
+  left: 230px;
+  bottom: 30px;
+  margin: 0 40px;
+}
+
+main, footer {
+  grid-column: 2;
+  position: relative;
+}
+
+.hero-image {
+  margin-top: 30px;
+}
+section {
+  position: relative;
+}
+.sub-banner-1, .sub-banner-2, .sub-banner-3 {
+  margin-top: 30px;
+}
+.sub-banner-1 {
+  position: relative;
+  left: 0;
+}
+.sub-banner-2 {
+  position: relative;
+  left: 29px;
+}
+.sub-banner-3 {
+  position: relative;
+  left: 54px;
+}
+#featured {
+  position: relative;
+}
+.featured-image {
+  margin-top: 30px;
+}
+
+.featured-text {
+  position: relative;
+  overflow-x: hidden;
+  overscroll-behavior-y: scroll;
+  bottom: 55px;
+  margin-left: 30px;
+  margin-top: 30px;
+  display: inline-block;
+  width: 430px;
+  height: 340px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+p {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.button {
+
+  position: absolute;
+  width: 170px;
+  height: 40px;
+  right: 280px;
+  bottom: 5px;  
+}
+
+.button:hover {
+  background-color: black;
+  color: #ffffff
+}
+
+.footer {
+  background-color: #ffffff;
+  height: 30px;
+ }
